@@ -10,8 +10,9 @@ const config = {
 	client_secret: 'supper secret client key right here'
 };
 
-const api = GolfNow(config);
+const api = new GolfNow(config);
 
-api.root()
+api.channel()
 	.then(res => console.log(res.data));
+	.catch(err => console.log(err.response.data));
 ```
