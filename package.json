@@ -1,10 +1,10 @@
 {
   "name": "node-golfnow",
   "version": "1.0.0",
-  "description": "Node.sj SDK for the GolfNow Api",
+  "description": "Node.js SDK for the GolfNow Api",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo 'package test not yet implemented'"
   },
   "keywords": [
     "golf",
