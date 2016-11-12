@@ -3,3 +3,9 @@ node_js:
   - "6"
   - "5"
   - "4"
+
+# deploy:
+#   provider: script
+#   script: scripts/deploy.sh
+#   on:
+#     branch: develop
