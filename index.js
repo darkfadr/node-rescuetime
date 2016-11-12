@@ -10,7 +10,11 @@ const config = {
 
 const api = new GolfNow(config);
 
-api.courses()
+api.courses({
+		latitude: 25.7746303,
+		longitude: -80.1930857,
+		proximity: 50
+	})
 	.then(res => console.log(res.data))
 	.catch(err => console.log(err));
 /*

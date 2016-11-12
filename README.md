@@ -1,5 +1,7 @@
 Golf Now API
 
+[![Build Status](https://travis-ci.org/darkfadr/node-golfnow.svg?branch=master)](https://travis-ci.org/darkfadr/node-golfnow)
+
 > Doing this cause I didnt like the implementation of another solution
 
 ```
