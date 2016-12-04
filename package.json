@@ -1,21 +1,19 @@
 {
-  "name": "node-golfnow",
-  "version": "1.1.0",
-  "description": "Node.js SDK for the GolfNow Api",
-  "main": "index.js",
+  "name": "node-rescuetime",
+  "version": "0.1.0",
+  "description": "Node.js SDK for the RescueTime Analytics and Summaries API",
+  "main": "lib/rescuetime.js",
   "scripts": {
     "test": "node_modules/jest/bin/jest.js"
   },
   "keywords": [
-    "golf",
-    "api",
-    "golfnow"
+    "rescuetime",
+    "analytics"
   ],
   "author": "Ashely Narcisse",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.2",
-    "jest": "^17.0.0",
     "striptags": "^2.1.1"
   },
   "devDependencies": {
